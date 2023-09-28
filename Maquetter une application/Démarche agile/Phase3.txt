@@ -1,0 +1,29 @@
+Donnez une définition de l'agilité:
+Ce sont des cycles de développement courts, très ciblés, impliquant le client et favorisant la collaboration entre des équipes pluridisciplinaires.
+ L'objectif de la méthode agile est de développer des produits plus rapidement, à moindre coût,
+ et avec un taux de réussite et de satisfaction plus important.
+
+
+Pourquoi l'Extreme Programming ?:
+L'eXtreme Programming permet aussi aux développeurs de prendre en compte les demandes des clients,
+ de s'adapter et de faire des modifications en temps réel. Bien plus rigoureuse,
+ cette méthode effectue fréquemment des révisions de code et des tests unitaires pour apporter des changements rapidement.
+
+
+Quels avantages y a-t'il à utiliser SCRUM ?:
+Quand utiliser Scrum ? Offrant plus de réactivité, elle est plus adaptée que les méthodes traditionnelles pour la gestion de projets web,
+ tel que le développement logiciel, car elle traduit et organise les projets de façon simple, transparente et pragmatique.
+
+
+Sprint et intégration continue, expliquez le fonctionnement d'un sprint:
+
+Un sprint est une itération agile d'une durée de 1 à 4 semaines pendant laquelle l'équipe projet effectue un travail donné et livre un incrément,
+ afin de répondre à un objectif donné. Ce travail en cycle court permet de s'adapter rapidement aux évolutions et de recueillir
+ le feedback des utilisateurs.
+
+
+TDD :(Test Driven Development), recherchez des informations pour expliquer le principe.:
+Test-Driven Development (TDD), ou développement piloté par les tests en français,
+ est une méthode de développement de logiciel qui consiste à concevoir un logiciel par des itérations successives très courtes (ou petits pas),
+ telles que chaque itération est accomplie en formulant un sous-problème à résoudre sous forme d'un test avant d'écrire le code source correspondant, 
+ et où le code est continuellement remanié dans une volonté de simplification.
