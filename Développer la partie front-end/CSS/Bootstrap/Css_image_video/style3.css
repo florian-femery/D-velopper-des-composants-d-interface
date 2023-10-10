@@ -1,0 +1,75 @@
+.jaune {
+    background-color: #ffff00;
+}
+.verte {
+    background-color: #00ff00;
+}
+
+.jaune-hight {
+    position: relative;
+    bottom: 5px;
+    background-color: #ffff00;
+}
+.jaune-hight-left {
+    position: relative;
+    bottom: 5px;
+    left: 3em;
+    background-color: #ffff00;
+}
+
+.verte-lorem {
+    position: relative;
+    background-color: #00ff00;
+    width: 15em;
+}
+.jaune-lorem {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color:#ffff00;
+}
+
+body
+{
+ background-color: blue;
+}
+#centre
+{
+ margin: 1em 25%;
+ background-color: #FFF;
+}
+#gauche
+{
+ position: absolute;
+ top: 1em;
+ left: 1%;
+ width: 18%;
+}
+#droite
+{
+ position: absolute;
+ top: 1em;
+ right: 1%;
+ width: 18%;
+}
+.aqua
+{
+ background-color: #00FFFF; /* aqua */
+}
+
+.content {
+    width: 65%;
+    border: 1px solid #000000;
+    padding: 1em 1%;
+}
+.menu {
+    position: absolute;
+    top: 1em;
+    right: 1%;
+    border: 1px solid #000000;
+    padding: 1em;
+    width: 20%;
+   }
+   html>body .menu {
+    position: fixed;
+   }
