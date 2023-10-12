@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form_Java</title>
+    </head>
+    
+    <body>
+<hr>
+        <form action="gg.html" method="POST" id="form1">
+            <h3 style="color: red;">* <b style="color: rgb(156, 0, 0);">Ces zones sont obligatoires pour envoyer le formulaire.</b></h3>
+                <label for="entreprise"><b>Société : </b></label><input type="text" name="entreprise" id="entreprise"><br>
+                <label for="contacter"><b>Personne à contacter : </b></label><input type="text" name="contacter" id="contacter"><br>
+                <label for="adresse">Adresse de l'entreprise : </label><textarea name="adresse" id="adresse"></textarea><br>
+                <label for="cp"><b>Code Postal : </b></label><input type="text" name="cp" id="cp" maxlength="5"><br>
+                <label for="Ville"><b>Ville : </b></label><input type="text" name="Ville" id="Ville"><br>
+                <label for="mail"><b>E-mail : </b></label><input type="email" name="mail" id="mail"><br>
+                <label for="tel">Téléphone</label><input type="text" name="tel" id="tel" pattern="0[1-9][0-9]{8}"><br>
+                <label for="adresse">Sélectionnez l'environnement technique du projet : </label><textarea name="adresse" id="adresse"></textarea><br>
+                <select id="choix">
+                    <option value="" selected>Choisissez</option>
+                    <option value="" >Access</option>
+                    <option value="" >Java</option>
+                    <option value="" >Delphi</option>
+                    <option value="" >Windev</option>
+                    <option value="" >Visual Basic</option>
+                    <option value="" >Power Builder</option>
+                    <option value="" >Internet</option>
+                    <option value="" >Intranet</option>
+                    <option value="" >Windows NT</option>
+                    <option value="" >Unix</option>
+                    <option value="" >SQL Server</option>
+                    <option value="" >Oracle</option>
+                    <option value="" >Autres...</option>
+                  </select><br><br>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Effacer">
+        </form>
+<hr>
+        <script src="Formulaire.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
